@@ -1,25 +1,9 @@
-package controller;
+package controller.manager;
 
-public class StockController {
-	public static getCategories() {
-		return Category[];
-	}
+
+public class ProductManager {
 	
-	public static getCategoryById(int id) {
-		return Category;
-	}
-	
-	public static createCategory(String label) {
-		return Category;
-	}
-	
-	public static updateCategory(Category category, String label) {
-		return Category;
-	}
-	
-	public static void deleteCategory(Category category) {
-		
-	}
+	private int idProduct;
 	
 	public static getProducts() {
 		return Product[];
@@ -33,7 +17,15 @@ public class StockController {
 		return Product;
 	}
 	
+	public static searchProductsByName(String searchString) {
+		return Product[];
+	}
+	
 	public static createProduct(String name, String description, float purchasingPrice, int quantity, Category category) {
+		return Product;
+	}
+	
+	public static addProduct(int id, String name, String description, float purchasingPrice, int quantity, Category category) {
 		return Product;
 	}
 	
@@ -45,7 +37,6 @@ public class StockController {
 		return Product;
 	}
 	
-	public static void loadProductsFromFile() {
+	public static void saveProductToFile(Product product) {
 		
 	}
-}
