@@ -6,7 +6,7 @@ public class CategoryManager {
 	
 	private static int idCategory;
 	
-	public static List<Category> getCategories() {
+	public static ArrayList<Category> getCategories() {
 		// TODO
 	}
 	

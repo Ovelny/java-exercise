@@ -1,7 +1,7 @@
 package controller;
 
 public class StockController {
-	public static List<Category> getCategories() {
+	public static ArrayList<Category> getCategories() {
 		// TODO
 	}
 	
@@ -21,11 +21,11 @@ public class StockController {
 		// TODO
 	}
 	
-	public static List<Product> getProducts() {
+	public static ArrayList<Product> getProducts() {
 		// TODO
 	}
 	
-	public static List<Product> getProductsByCategory(Category category) {
+	public static ArrayList<Product> getProductsByCategory(Category category) {
 		// TODO
 	}
 	

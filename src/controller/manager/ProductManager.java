@@ -5,11 +5,11 @@ public class ProductManager {
 	
 	private int idProduct;
 	
-	public static List<Product> getProducts() {
+	public static ArrayList<Product> getProducts() {
 		// TODO
 	}
 	
-	public static List<Product> getProductsByCategory(Category category) {
+	public static ArrayList<Product> getProductsByCategory(Category category) {
 		// TODO
 	}
 	
@@ -17,7 +17,7 @@ public class ProductManager {
 		// TODO
 	}
 	
-	public static List<Product> searchProductsByName(String searchString) {
+	public static ArrayList<Product> searchProductsByName(String searchString) {
 		// TODO
 	}
 	

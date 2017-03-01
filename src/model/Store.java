@@ -41,6 +41,6 @@ public final class Store {
   }
   
   public void getProducts() {
-	  // TODO: ...
+	  // TODO
   }
 }

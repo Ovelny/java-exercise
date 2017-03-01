@@ -2,7 +2,7 @@ package view.stock;
 
 public interface IStockConsultation {
 	
-	public List<Product> listProducts() {
+	public ArrayList<Product> ArrayListProducts() {
 		// TODO
 	}
 	
@@ -10,7 +10,7 @@ public interface IStockConsultation {
 		// TODO
 	}
 	
-	public List<Product> searchProduct() {
+	public ArrayList<Product> searchProduct() {
 		// TODO
 	}
 }

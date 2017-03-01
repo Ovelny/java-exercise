@@ -14,7 +14,7 @@ public interface IStockManagement {
 		// TODO
 	}
 	
-	public ArrayList<Category> getCategories() {
+	public ArrayArrayList<Category> getCategories() {
 		// TODO
 	}
 	
@@ -26,7 +26,7 @@ public interface IStockManagement {
 		// TODO
 	}
 	
-	public ArrayList<Product> listProducts() {
+	public ArrayArrayList<Product> ArrayListProducts() {
 		// TODO
 	}
 	
