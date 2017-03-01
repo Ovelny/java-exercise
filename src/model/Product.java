@@ -6,4 +6,5 @@ public class Product {
 	private String description;
 	private float purchasingPrice;
 	private int quantity;
+	private Category category;
 }

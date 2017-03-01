@@ -8,6 +8,7 @@ public final class Store {
   // mais pas encore "réellement" instancié.
   // De Java version 1.2 à 1.4, il est possible d'utiliser la classe ThreadLocal.
   private static volatile Store instance = null;
+  private Product[] products;
 
   /**
    * Constructeur de l'objet.
@@ -37,5 +38,9 @@ public final class Store {
          }
       }
       return Store.instance;
+  }
+  
+  public void getProducts() {
+	  // TODO: ...
   }
 }
