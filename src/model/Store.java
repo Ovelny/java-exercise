@@ -1,5 +1,7 @@
 package model;
 
+import java.util.ArrayList;
+
 //La classe est finale, car un singleton n'est pas censé avoir d'héritier.
 public final class Store {
 
@@ -17,7 +19,7 @@ public final class Store {
   private Store() {
       // La présence d'un constructeur privé supprime le constructeur public par défaut.
       // De plus, seul le singleton peut s'instancier lui-même.
-      super();
+      this.products = new ArrayList<Product>();
   }
   
   /**
@@ -41,7 +43,7 @@ public final class Store {
       return Store.instance;
   }
   
-  public void getProducts() {
-	  // TODO
+  public ArrayList<Product> getProducts() {
+	  return this.products;
   }
 }
