@@ -5,6 +5,7 @@ import controller.Category;
 public class CategoryManager {
 	
 	private static int idCategory;
+	private static ArrayList<Category> categories;
 	
 	public static ArrayList<Category> getCategories() {
 		// TODO
