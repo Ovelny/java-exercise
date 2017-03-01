@@ -5,36 +5,36 @@ public class ProductManager {
 	
 	private int idProduct;
 	
-	public static getProducts() {
-		return Product[];
+	public static List<Product> getProducts() {
+		// TODO
 	}
 	
-	public static getProductsByCategory(Category category) {
-		return Product[];
+	public static List<Product> getProductsByCategory(Category category) {
+		// TODO
 	}
 	
-	public static getProductById(int id) {
-		return Product;
+	public static Product getProductById(int id) {
+		// TODO
 	}
 	
-	public static searchProductsByName(String searchString) {
-		return Product[];
+	public static List<Product> searchProductsByName(String searchString) {
+		// TODO
 	}
 	
-	public static createProduct(String name, String description, float purchasingPrice, int quantity, Category category) {
-		return Product;
+	public static Product createProduct(String name, String description, float purchasingPrice, int quantity, Category category) {
+		// TODO
 	}
 	
-	public static addProduct(int id, String name, String description, float purchasingPrice, int quantity, Category category) {
-		return Product;
+	public static Product addProduct(int id, String name, String description, float purchasingPrice, int quantity, Category category) {
+		// TODO
 	}
 	
-	public static updateProduct (Product product, String name, String description, float purchasingPrice, int quantity, Category category) {
-		return Product;
+	public static Product updateProduct (Product product, String name, String description, float purchasingPrice, int quantity, Category category) {
+		// TODO
 	}
 	
-	public static deleteProduct(Product product) {
-		return Product;
+	public static Product deleteProduct(Product product) {
+		// TODO
 	}
 	
 	public static void saveProductToFile(Product product) {

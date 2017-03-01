@@ -1,51 +1,51 @@
 package controller;
 
 public class StockController {
-	public static getCategories() {
-		return Category[];
+	public static List<Category> getCategories() {
+		// TODO
 	}
 	
-	public static getCategoryById(int id) {
-		return Category;
+	public static Category getCategoryById(int id) {
+		// TODO
 	}
 	
-	public static createCategory(String label) {
-		return Category;
+	public static Category createCategory(String label) {
+		// TODO
 	}
 	
-	public static updateCategory(Category category, String label) {
-		return Category;
+	public static Category updateCategory(Category category, String label) {
+		// TODO
 	}
 	
 	public static void deleteCategory(Category category) {
-		
+		// TODO
 	}
 	
-	public static getProducts() {
-		return Product[];
+	public static List<Product> getProducts() {
+		// TODO
 	}
 	
-	public static getProductsByCategory(Category category) {
-		return Product[];
+	public static List<Product> getProductsByCategory(Category category) {
+		// TODO
 	}
 	
-	public static getProductById(int id) {
-		return Product;
+	public static Product getProductById(int id) {
+		// TODO
 	}
 	
-	public static createProduct(String name, String description, float purchasingPrice, int quantity, Category category) {
-		return Product;
+	public static Product createProduct(String name, String description, float purchasingPrice, int quantity, Category category) {
+		// TODO
 	}
 	
-	public static updateProduct (Product product, String name, String description, float purchasingPrice, int quantity, Category category) {
-		return Product;
+	public static Product updateProduct (Product product, String name, String description, float purchasingPrice, int quantity, Category category) {
+		// TODO
 	}
 	
-	public static deleteProduct(Product product) {
-		return Product;
+	public static Product deleteProduct(Product product) {
+		// TODO
 	}
 	
 	public static void loadProductsFromFile() {
-		
+		// TODO
 	}
 }

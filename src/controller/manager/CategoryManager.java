@@ -6,27 +6,27 @@ public class CategoryManager {
 	
 	private static int idCategory;
 	
-	public static getCategories() {
-		return Category[];
+	public static List<Category> getCategories() {
+		// TODO
 	}
 	
-	public static getCategoryById(int id) {
-		return Category;
+	public static Category getCategoryById(int id) {
+		// TODO
 	}
 	
-	public static getCategoryByLabel(String label) {
-		return Category;
+	public static Category getCategoryByLabel(String label) {
+		// TODO
 	}
 	
-	public static createCategory(String label) {
-		return Category;
+	public static Category createCategory(String label) {
+		// TODO
 	}
 	
-	public static updateCategory(Category category, String label) {
-		return Category;
+	public static Category updateCategory(Category category, String label) {
+		// TODO
 	}
 	
 	public static void deleteCategory(Category category) {
-		
+		// TODO
 	}
 }
