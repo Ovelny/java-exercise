@@ -15,7 +15,7 @@ public class Category {
 	}
 
 	public void setLabel(int label) {
-		this.label = label;
+	    this.label = label;
 	}
 
 }

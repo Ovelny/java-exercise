@@ -1,4 +1,4 @@
-package view.stock;
+/*package view.stock;
 
 public interface IStockManagement {
 	
@@ -10,4 +10,4 @@ public interface IStockManagement {
 	public void deleteProduct();
 	public ArrayArrayList<Product> ArrayListProducts();
 	public Product getProduct();
-}
+}*/

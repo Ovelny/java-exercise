@@ -1,4 +1,4 @@
-package controller;
+/*package controller;
 
 public class StockController {
 	public static ArrayList<Category> getCategories() {
@@ -48,4 +48,4 @@ public class StockController {
 	public static void loadProductsFromFile() {
 		// TODO
 	}
-}
+}*/

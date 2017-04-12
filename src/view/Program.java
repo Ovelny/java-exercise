@@ -1,9 +1,4 @@
-package view;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
-import controller.manager.DataManager;
+/*package view;
 
 public class Program {
 	
@@ -26,15 +21,15 @@ public class Program {
 		        scanner.close();
 			} 
 			catch (FileNotFoundException e) {
-				// TODO Bloc catch généré automatiquement
+				// TODO Bloc catch gÃ©nÃ©rÃ© automatiquement
 				e.printStackTrace();
 			}
 	         
 	        
-	}*/
-	
-	public static void main(String[] args) {
-		
 	}
 	
-}
+	public static void main(String[] args) {
+		System.out.println("Hello, World");
+	}
+	
+}*/
