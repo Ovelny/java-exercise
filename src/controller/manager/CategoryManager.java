@@ -1,13 +1,15 @@
 package controller.manager;
 
-import controller.Category;
+import model.Category;
+
+import java.util.ArrayList;
 
 public class CategoryManager {
 	
 	private static int idCategory;
 	private static ArrayList<Category> categories;
 	
-	public static ArrayList<Category> getCategories() {
+	/*public static ArrayList<Category> getCategories() {
 		// TODO
 	}
 	
@@ -29,5 +31,5 @@ public class CategoryManager {
 	
 	public static void deleteCategory(Category category) {
 		// TODO
-	}
+	}*/
 }
