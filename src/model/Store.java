@@ -9,8 +9,8 @@ public final class Store {
   // permet d'éviter le cas où "Singleton.instance" est non nul,
   // mais pas encore "réellement" instancié.
   // De Java version 1.2 à 1.4, il est possible d'utiliser la classe ThreadLocal.
-  private static volatile Store instance = null;
-  private ArrayList<Product> products;
+  public static volatile Store instance = null;
+  public static ArrayList<Product> products;
   
 
   /**

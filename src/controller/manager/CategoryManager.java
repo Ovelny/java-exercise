@@ -6,30 +6,22 @@ import java.util.ArrayList;
 
 public class CategoryManager {
 	
-	private static int idCategory;
-	private static ArrayList<Category> categories;
-	
-	/*public static ArrayList<Category> getCategories() {
-		// TODO
-	}
-	
-	public static Category getCategoryById(int id) {
-		// TODO
-	}
-	
-	public static Category getCategoryByLabel(String label) {
-		// TODO
-	}
-	
-	public static Category createCategory(String label) {
-		// TODO
-	}
-	
-	public static Category updateCategory(Category category, String label) {
-		// TODO
-	}
-	
-	public static void deleteCategory(Category category) {
-		// TODO
-	}*/
+	private static int idCategory = 0;
+	private String label;
+    private static ArrayList<Category> categories = new ArrayList<>();
+
+	public static Category addCategory(String label) {
+	    idCategory = idCategory + 1;
+	    Category newCategory = new Category(idCategory, label);
+	    categories.add(newCategory);
+	    return newCategory;
+    }
+
+    public static ArrayList<Category> getCategories() {
+	    return categories;
+    }
+
+    public static ArrayList<Category> getCategoriesById(int id) {
+	    return null;
+    }
 }

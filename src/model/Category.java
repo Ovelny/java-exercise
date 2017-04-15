@@ -2,18 +2,18 @@ package model;
 
 public class Category {
 	private int id;
-	private int label;
+	private String label;
 	
-	public Category(int id, int label) {
+	public Category(int id, String label) {
 		this.id = id;
 		this.label = label;
 	}
 
-	public int getLabel() {
+	public String getLabel() {
 		return label;
 	}
 
-	public void setLabel(int label) {
+	public void setLabel(String label) {
 	    this.label = label;
 	}
 

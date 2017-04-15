@@ -1,6 +1,8 @@
 package controller;
 
+import controller.manager.CategoryManager;
 import controller.manager.ProductManager;
+import model.Category;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -27,7 +29,8 @@ public class StockController {
                 int quantity = scanner.nextInt();
                 String categoryLabel = scanner.next();
 
-                ProductManager.addProduct(id, name, description, price, quantity, categoryLabel);
+                Category newCategory = CategoryManager.addCategory(categoryLabel);
+                ProductManager.addProduct(id, name, description, price, quantity, newCategory);
 
             }
 
