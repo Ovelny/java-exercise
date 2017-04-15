@@ -20,6 +20,30 @@ public class CategoryManager {
     }
 
 
+    public static Category updateCategory(Category category, String label) {
+        List<Category> objects = CategoryManager.getCategories();
+        for (int i = 0; i < objects.size(); i++) {
+            if (objects.get(i).getId() == category.getId()) {
+                objects.get(i).setLabel(label);
+                return objects.get(i);
+            }
+        }
+        // TODO : add try / catch
+        return null;
+    }
+
+    //TODO : not sure this is how it's done, check later
+    public static void deleteCategory(Category category) {
+        List<Category> objects = CategoryManager.getCategories();
+        for (int i =0; i < objects.size(); i++) {
+            if (objects.get(i).getId() == category.getId()) {
+                objects.get(i).setId() = null;
+                objects.get(i).setLabel() = null;
+            }
+        }
+    }
+
+
     public static ArrayList<Category> getCategories() {
 	    return categories;
     }

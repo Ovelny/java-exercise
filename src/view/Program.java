@@ -12,9 +12,7 @@ public class Program {
 	public static void main(String[] args) {
 		System.out.println("Hello, World");
         StockController.loadProductsFromFile();
-        Category test = CategoryManager.getCategoryByLabel("vinBien");
-        //Category test = CategoryManager.getCategoryById(1);
-        System.out.println(test);
+
 	}
 
 }

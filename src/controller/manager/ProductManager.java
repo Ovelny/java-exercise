@@ -5,6 +5,8 @@ import model.Category;
 import model.Product;
 import model.Store;
 
+import java.util.ArrayList;
+
 public class ProductManager {
 
 	private int idProduct;
