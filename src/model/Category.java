@@ -5,7 +5,6 @@ public class Category {
 	private int label;
 	
 	public Category(int id, int label) {
-		super();
 		this.id = id;
 		this.label = label;
 	}
@@ -17,5 +16,13 @@ public class Category {
 	public void setLabel(int label) {
 	    this.label = label;
 	}
+
+	public int getId() {
+	    return id;
+    }
+
+    public void setId(int id) {
+	    this.id = id;
+    }
 
 }

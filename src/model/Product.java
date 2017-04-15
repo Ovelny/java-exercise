@@ -7,7 +7,7 @@ public class Product {
 	private float purchasingPrice;
 	private int quantity;
 	private Category category;
-	
+
 	public Product(int id, String name, String description, float purchasingPrice, int quantity, Category category) {
 		this.id = id;
 		this.name = name;
@@ -56,5 +56,5 @@ public class Product {
 	public void setCategory(Category category) {
 		this.category = category;
 	}
-	
+
 }
