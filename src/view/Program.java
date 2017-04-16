@@ -14,7 +14,7 @@ public class Program {
 	public static void main(String[] args) {
 		System.out.println("Hello, World");
         StockController.loadProductsFromFile();
-        ArrayList<Product> test = ProductManager.getProducts();
+        Product blaTest = ProductManager.getProductById(1);
 
 
 	}
