@@ -21,6 +21,10 @@ public class Product {
 		return name;
 	}
 
+	public int getId() {
+		return id;
+	}
+
 	public void setName(String name) {
 		this.name = name;
 	}

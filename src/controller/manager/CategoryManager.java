@@ -37,8 +37,7 @@ public class CategoryManager {
         List<Category> objects = CategoryManager.getCategories();
         for (int i =0; i < objects.size(); i++) {
             if (objects.get(i).getId() == category.getId()) {
-                objects.get(i).setId() = null;
-                objects.get(i).setLabel() = null;
+                objects.get(i).setLabel(null);
             }
         }
     }

@@ -43,7 +43,7 @@ public final class Store {
       return Store.instance;
   }
   
-  public ArrayList<Product> getProducts() {
-	  return this.products;
+  public static ArrayList<Product> getProducts() {
+	  return products;
   }
 }
